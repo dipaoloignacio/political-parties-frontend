@@ -183,3 +183,32 @@ body {
   opacity: 0.3;
   cursor: not-allowed;
 }
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 1rem;
+  }
+
+  .party-item {
+    flex-wrap: wrap;
+  }
+
+  .party-name-input {
+    flex: 1 1 calc(100% - 32px - 1rem);
+  }
+
+  .vote-controls {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .btn-remove {
+    flex-shrink: 0;
+  }
+
+  .controls-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
