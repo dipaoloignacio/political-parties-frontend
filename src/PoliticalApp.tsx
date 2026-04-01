@@ -5,7 +5,7 @@ import { HomePage } from "./pages/HomePage";
 function PoliticalApp() {
   return (
     <>
-      <WebSocketProvider url="wss://parties.aconcaguachat.online">
+      <WebSocketProvider url="wss://parties-api.dipaoloproyects.space">
         <HomePage />
       </WebSocketProvider>
     </>
